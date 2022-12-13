@@ -1,0 +1,159 @@
+.main{
+    align-content: center;
+    display: inline-block;
+    border-color:blue ;
+    
+    
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.horizontal_slider {
+    display: block;
+    width: 100%;
+    overflow-x: scroll;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #eee;
+}
+
+/*this is for chrome / firefox/ opera and safari*/
+.horizontal_slider::-webkit-scrollbar {
+    display: none;
+}
+
+/* for ms*/
+.horizontal_slider {
+    -ms-overflow-style: none;
+}
+
+.slider_container {
+    display: block;
+    white-space: nowrap;
+}
+
+.item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.item img {
+    width: 150px;
+    height: 225px;
+    object-fit: cover;
+}
+
+@media (min-width: 420px) {
+    h1 {
+    font-size: 30px;
+    }
+    }
+
+.joblogo{
+    display:inline-block;
+    height:40px;
+    image-resolution: 10%;
+    width:45px;
+    vertical-align: bottom;
+    opacity: 0.5;
+}
+.selectjobs{  
+    display: inline-block;
+    width:250px; 
+    font-size: 20px;
+    border-radius: 1px; 
+    border-top:none; 
+    border-left: none; 
+    border-right: none;
+    border-color: gray; 
+    box-shadow: 5px 5px 10px rgb(212, 208, 208);
+    text-size-adjust: 50%;
+    margin-bottom: 9px;
+}
+
+.accountant, .hr{
+    border-color: rgb(91, 20, 112) ;
+   border-radius: 14px;
+   background-color: white;
+   height: 20 px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.accountant:hover, .carpentry:hover,.hr:hover,
+.da:hover, .draftsman:hover, .sales:hover, .id:hover,.plumber:hover {
+    background-color: rgb(228, 21, 21);
+    color: white;
+  }
+
+.sales, .da{
+   border-color: orangered;
+   border-radius: 14px;
+   margin-left: 5px;
+   background-color: white;
+   height: 20 px;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   padding-left: 8px;
+   padding-right: 8px;
+}
+
+.hr{
+   
+   margin-left: 5px;
+   background-color: white;
+}
+
+.id, .carpentry{
+    border-color: rgb(245, 119, 16) ;
+   border-radius: 14px;
+   background-color: white;
+   height: 20 px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.plumber{
+   margin-left: 5px;
+}
+
+.draftsman, .plumber{
+    border-color: rgb(99, 182, 178) ;
+   border-radius: 14px;
+   background-color: white;
+   height: 20 px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.carpentry{
+    margin-left: 5px;
+}
+
+.next{
+    /* margin-top: 30px; */
+    height: 40px;
+    background-color: rgb(53, 153, 192);
+    color: whitesmoke;
+   align-content: center;
+   width: 300px;
+   border-radius: 20px;
+   margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+   
+}
